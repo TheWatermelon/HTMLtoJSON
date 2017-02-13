@@ -92,5 +92,16 @@ class Lexical:
                 c = self.ligne[self.position]
             return Jeton(Jeton.TYPE_CONTENU, buffer)
 
+    def estBaliseOuvrante(self, jeton) -> bool:
+        return jeton.type == Jeton.TYPE_BALISE_OUVRANTE
+
+    def estBaliseFermante(self, jeton) -> bool:
+        return jeton.type == Jeton.TYPE_BALISE_FERMANTE
+
+    def estContenu(self, jeton) -> bool:
+        return jeton.type == Jeton.TYPE_CONTENU
+
+    def estEOF(self, jeton) -> bool:
+        return jeton.type == Jeton.TYPE_EOF
 
 
