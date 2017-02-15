@@ -15,6 +15,7 @@ class Jeton:
     TYPE_BALISE_OUVRANTE = 0
     TYPE_BALISE_FERMANTE = 1
     TYPE_CONTENU = 2
+    TYPE_COMMENTAIRE = 3
     TYPE_EOF = -1
 
     def __init__(self, type_jeton, representation):
@@ -70,25 +71,46 @@ class Lexical:
         c = self.ligne[self.position]
         if c == '<':
             buffer = ''
-            while c != '>':
+            # commentaire HTML
+            if self.ligne[self.position+1] == '!' and \
+                self.ligne[self.position+2] == '-' and \
+                self.ligne[self.position+3] == '-':
+                while self.ligne[self.position] != '-' or \
+                        self.ligne[self.position+1] != '-' or \
+                        self.ligne[self.position+2] != '>':
+                    buffer += c
+                    self.position += 1
+                    if self.position == len(self.ligne):
+                        if not (self.avance()):
+                            return Jeton(Jeton.TYPE_EOF, "")
+                    c = self.ligne[self.position]
+                buffer += self.ligne[self.position] + self.ligne[self.position+1] + self.ligne[self.position+2]
+                self.position += 3
+                c = self.ligne[self.position]
+                return Jeton(Jeton.TYPE_COMMENTAIRE, buffer)
+            # balise classique
+            else:
+                while c != '>':
+                    buffer += c
+                    self.position += 1
+                    if self.position == len(self.ligne):
+                        if not (self.avance()):
+                            return Jeton(Jeton.TYPE_EOF, "")
+                    c = self.ligne[self.position]
                 buffer += c
                 self.position += 1
-                if self.position == len(self.ligne):
-                    break
-                c = self.ligne[self.position]
-            buffer += c
-            self.position += 1
-            if buffer[1] == '/':
-                return Jeton(Jeton.TYPE_BALISE_FERMANTE, buffer)
-            else:
-                return Jeton(Jeton.TYPE_BALISE_OUVRANTE, buffer)
+                if buffer[1] == '/':
+                    return Jeton(Jeton.TYPE_BALISE_FERMANTE, buffer)
+                else:
+                    return Jeton(Jeton.TYPE_BALISE_OUVRANTE, buffer)
         else:
             buffer = ''
             while c != '<':
                 buffer += c
                 self.position += 1
                 if self.position == len(self.ligne):
-                    break
+                    if not (self.avance()):
+                        return Jeton(Jeton.TYPE_EOF, "")
                 c = self.ligne[self.position]
             return Jeton(Jeton.TYPE_CONTENU, buffer)
 
@@ -100,6 +122,9 @@ class Lexical:
 
     def estContenu(self, jeton) -> bool:
         return jeton.type == Jeton.TYPE_CONTENU
+
+    def estCommentaire(self, jeton) -> bool:
+        return jeton.type == Jeton.TYPE_COMMENTAIRE
 
     def estEOF(self, jeton) -> bool:
         return jeton.type == Jeton.TYPE_EOF

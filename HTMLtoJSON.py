@@ -4,7 +4,7 @@ import sys
 import getopt
 import json
 
-from HTMLUtils import HTMLUtils
+import HTMLUtils
 
 
 
@@ -22,15 +22,14 @@ from HTMLUtils import HTMLUtils
 # sont dans la liste blanche         #
 ######################################
 def parse_html(inputfile, white_list) -> dict:
-    utils = HTMLUtils()
     json_output = {'id': inputfile}
     element_list = []
     # recupere une liste de balises depuis un fichier html
-    liste_balises = utils.get_html_balises(inputfile)
+    liste_balises = HTMLUtils.get_html_balises(inputfile)
     # parcours des balises
     for balise in liste_balises:
         # genere un element JSON a partir de la balise
-        element = utils.html_line_to_json_element(balise, white_list)
+        element = HTMLUtils.html_line_to_json_element(balise, white_list)
         # si l'element est non vide
         if len(element) > 0:
             element_list.append(element)
@@ -42,7 +41,6 @@ def parse_html(inputfile, white_list) -> dict:
 
 
 def main(argv):
-    utils = HTMLUtils()
     json_output = {}
     inputfile = ''
     outputfile = ''
@@ -66,7 +64,7 @@ def main(argv):
         elif opt in ("-o", "--ofile"):
             outputfile = arg
         elif opt in ("-l", "--wlist"):
-            white_list = utils.str_to_list(arg, ',')
+            white_list = HTMLUtils.str_to_list(arg, ',')
     if inputfile != '':
         json_output = parse_html(inputfile, white_list)
     if outputfile != '':
