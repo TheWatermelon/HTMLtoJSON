@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b435a440-2aa3-48e0-9025-2335ffe4a5df" name="Default" comment="" />
+=======
+    <list default="true" id="b435a440-2aa3-48e0-9025-2335ffe4a5df" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTMLCleaner.py" afterPath="$PROJECT_DIR$/HTMLCleaner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTMLParser.py" afterPath="$PROJECT_DIR$/HTMLParser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTMLUtils.py" afterPath="$PROJECT_DIR$/HTMLUtils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTMLtoJSON.py" afterPath="$PROJECT_DIR$/HTMLtoJSON.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input.html" afterPath="$PROJECT_DIR$/input.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.json" afterPath="$PROJECT_DIR$/output.json" />
+    </list>
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +29,13 @@
       <file leaf-file-name="HTMLtoJSON.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTMLtoJSON.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="300">
               <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+=======
+            <state relative-caret-position="138">
+              <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
               <folding>
                 <element signature="e#19#29#0" expanded="true" />
               </folding>
@@ -27,6 +43,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="HTMLCleaner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTMLCleaner.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,36 +63,69 @@
               <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="e#19#29#0" expanded="true" />
+=======
+      <file leaf-file-name="HTMLCleaner.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTMLCleaner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding>
+                <element signature="e#19#32#0" expanded="true" />
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="7_clean_dom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/7_clean_dom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+      <file leaf-file-name="7.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="176" column="8" lean-forward="false" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="7.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-41094">
               <caret line="176" column="8" lean-forward="false" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
+=======
+      <file leaf-file-name="HTMLParser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTMLParser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="111" column="20" lean-forward="false" selection-start-line="111" selection-start-column="20" selection-end-line="112" selection-end-column="24" />
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="HTMLParser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTMLParser.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1490">
               <caret line="126" column="51" lean-forward="false" selection-start-line="126" selection-start-column="51" selection-end-line="126" selection-end-column="51" />
+=======
+      <file leaf-file-name="7_clean.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7_clean.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
               <folding />
             </state>
           </provider>
@@ -107,6 +157,7 @@
         <entry file="file://$PROJECT_DIR$/HTMLUtils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="393">
+<<<<<<< HEAD
               <caret line="120" column="30" lean-forward="false" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
               <folding />
             </state>
@@ -118,6 +169,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="1156" column="7" lean-forward="false" selection-start-line="1156" selection-start-column="7" selection-end-line="1156" selection-end-column="7" />
+=======
+              <caret line="120" column="41" lean-forward="false" selection-start-line="120" selection-start-column="41" selection-end-line="120" selection-end-column="41" />
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
               <folding />
             </state>
           </provider>
@@ -128,8 +182,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
         <option value="HTML File" />
         <option value="Python Script" />
+=======
+        <option value="Python Script" />
+        <option value="HTML File" />
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
       </list>
     </option>
   </component>
@@ -140,11 +199,14 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+<<<<<<< HEAD
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="TheWatermelon &lt;bastien.chapusot@gmx.com&gt;" />
       </list>
     </option>
+=======
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -153,6 +215,7 @@
         <option value="$PROJECT_DIR$/output.json" />
         <option value="$PROJECT_DIR$/HTMLtoJSON.py" />
         <option value="$PROJECT_DIR$/input.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/7.html" />
         <option value="$PROJECT_DIR$/HTMLUtils.py" />
         <option value="$PROJECT_DIR$/HTMLParser.py" />
@@ -160,10 +223,18 @@
         <option value="$PROJECT_DIR$/HTMLCleaner.py" />
         <option value="$PROJECT_DIR$/HTMLtoDOM.py" />
         <option value="$PROJECT_DIR$/7_clean_dom.xml" />
+=======
+        <option value="$PROJECT_DIR$/HTMLParser.py" />
+        <option value="$PROJECT_DIR$/HTMLUtils.py" />
+        <option value="$PROJECT_DIR$/7_clean.html" />
+        <option value="$PROJECT_DIR$/7.html" />
+        <option value="$PROJECT_DIR$/HTMLCleaner.py" />
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="960" />
     <option name="y" value="30" />
     <option name="width" value="960" />
@@ -171,6 +242,15 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+=======
+    <option name="x" value="-8" />
+    <option name="y" value="22" />
+    <option name="width" value="1932" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -183,14 +263,39 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
+<<<<<<< HEAD
     <panes />
+=======
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTMLtoJSON" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTMLtoJSON" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="E:/Programs/Git/bin/git.exe" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.HTMLtoDOM">
+=======
+  <component name="RunManager" selected="Python.HTMLCleaner">
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
     <configuration default="false" name="HTMLtoJSON" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,6 +326,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HTMLtoJSON" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HTMLCleaner.py" />
+<<<<<<< HEAD
       <option name="PARAMETERS" value="-i 7.html -l html,head,body,a -o 7_clean.html" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -239,6 +345,9 @@
       <module name="HTMLtoJSON" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HTMLtoDOM.py" />
       <option name="PARAMETERS" value="-i 7_clean.html -o 7_clean_dom.xml" />
+=======
+      <option name="PARAMETERS" value="-i 7.html -l html,head,body -o 7_clean.html" />
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
@@ -376,6 +485,7 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.HTMLtoJSON" />
       <item index="1" class="java.lang.String" itemvalue="Python.HTMLCleaner" />
@@ -386,6 +496,16 @@
         <item index="0" class="java.lang.String" itemvalue="Python.HTMLtoDOM" />
         <item index="1" class="java.lang.String" itemvalue="Python.HTMLCleaner" />
         <item index="2" class="java.lang.String" itemvalue="Python.HTMLtoJSON" />
+=======
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.HTMLtoJSON" />
+      <item index="1" class="java.lang.String" itemvalue="Python.HTMLCleaner" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.HTMLCleaner" />
+        <item index="1" class="java.lang.String" itemvalue="Python.HTMLtoJSON" />
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
       </list>
     </recent_temporary>
   </component>
@@ -400,6 +520,7 @@
       <option name="presentableId" value="Default" />
       <updated>1485876018114</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00001" summary="HTMLCleaner fonctionnel&#10;HTMLtoDOM fonctionnel">
       <created>1487165925085</created>
       <option name="number" value="00001" />
@@ -413,13 +534,24 @@
   <component name="ToolWindowManager">
     <frame x="960" y="30" width="960" height="1050" extended-state="0" />
     <editor active="true" />
+=======
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="22" width="1932" height="1066" extended-state="0" />
+    <editor active="false" />
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3665254" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33475026" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -455,10 +587,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HTMLCleaner fonctionnel&#10;HTMLtoDOM fonctionnel" />
     <option name="LAST_COMMIT_MESSAGE" value="HTMLCleaner fonctionnel&#10;HTMLtoDOM fonctionnel" />
   </component>
+=======
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -474,6 +609,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HTMLtoJSON.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="816">
           <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
           <folding>
@@ -544,6 +680,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HTMLtoJSON.py">
       <provider selected="true" editor-type-id="text-editor">
+=======
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
         <state relative-caret-position="4165">
           <caret line="247" column="35" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
           <folding>
@@ -679,18 +817,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HTMLtoJSON.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="300">
           <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+=======
+        <state relative-caret-position="138">
+          <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
           <folding>
             <element signature="e#19#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/7.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-41094">
           <caret line="176" column="8" lean-forward="false" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
+=======
+    <entry file="file://$PROJECT_DIR$/HTMLParser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="111" column="20" lean-forward="false" selection-start-line="111" selection-start-column="20" selection-end-line="112" selection-end-column="24" />
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
           <folding />
         </state>
       </provider>
@@ -698,19 +848,31 @@
     <entry file="file://$PROJECT_DIR$/HTMLUtils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
+<<<<<<< HEAD
           <caret line="120" column="30" lean-forward="false" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
+=======
+          <caret line="120" column="41" lean-forward="false" selection-start-line="120" selection-start-column="41" selection-end-line="120" selection-end-column="41" />
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/HTMLParser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1490">
           <caret line="126" column="51" lean-forward="false" selection-start-line="126" selection-start-column="51" selection-end-line="126" selection-end-column="51" />
+=======
+    <entry file="file://$PROJECT_DIR$/7_clean.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/HTMLCleaner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -725,20 +887,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="1156" column="7" lean-forward="false" selection-start-line="1156" selection-start-column="7" selection-end-line="1156" selection-end-column="7" />
+=======
+    <entry file="file://$PROJECT_DIR$/7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="176" column="8" lean-forward="false" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/HTMLtoDOM.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="e#19#29#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/HTMLCleaner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#19#32#0" expanded="true" />
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/7_clean_dom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -747,5 +925,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 089c5acc23f961b9d9e80bc5856bef90dc086c86
   </component>
 </project>
