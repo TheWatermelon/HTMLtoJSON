@@ -30,14 +30,14 @@ def main(argv):
     if inputfile != '':
         fd = open(inputfile, 'r', encoding="utf8")
 
-        buffer = ""
-        for line in fd.readlines():
-            for char in line:
+        #buffer = ""
+        #for line in fd.readlines():
+        #    for char in line:
                 # DEBUG : ajout du caractere '&' dans les caracteres interdits
-                if char != '\t' and char != '\n' and char != '\r' and char != '&':
-                    buffer += char
+        #        if char != '\t' and char != '\n' and char != '\r' and char != '&':
+        #            buffer += char
 
-        dom = xml.dom.minidom.parseString(buffer)
+        dom = xml.dom.minidom.parse(fd)
         xml_output = dom.toprettyxml()
     if outputfile != '':
         fd = open(outputfile, 'w', encoding="utf8")

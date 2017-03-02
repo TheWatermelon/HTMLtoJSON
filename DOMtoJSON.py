@@ -6,22 +6,90 @@ import getopt
 import HTMLUtils
 import xml.etree.ElementTree as ET
 
+
+#############################
+# extract_tag(tag) -> str : #
+#############################
+# Parametres :              #
+#   - tag : le tag recu de  #
+#     la forme {lien}tag    #
+#############################
+# Renvoie le tag juste      #
+# apres les {}              #
+#############################
+def extract_tag(tag) -> str:
+    ret = tag.partition('}')
+    return ret[2]
+
+
+#################################
+# select_style(root) -> str :   #
+#################################
+# Parametres :                  #
+#   - root : le noeud parent    #
+#     du bloc contenant les     #
+#     elements textuels         #
+#################################
+# Renvoie le style majoritaire  #
+# parmi les styles des elements #
+# en se basant sur le perimetre #
+# des elements                  #
+#################################
+def select_style(root) -> str:
+    max_bbox_perimeter = 0
+    style = ""
+    for child in root.iter():
+        bbox = child.attrib.get('data-bbox', '0 0 0 0')
+        # retire x
+        bbox_tuple = bbox.partition(' ')
+        # retire y
+        bbox_tuple = bbox_tuple[2].partition(' ')
+        # separe width et height
+        bbox_tuple = bbox_tuple[2].partition(' ')
+        # calcul du perimetre
+        bbox_perimeter = int(bbox_tuple[0]) + int(bbox_tuple[2])
+        # selection du style
+        if(bbox_perimeter > max_bbox_perimeter):
+            max_bbox_perimeter = bbox_perimeter
+            style = child.attrib.get('data-style', '')
+    return style
+
+
+######################################
+# dom_to_json(inputfile) -> dict :   #
+######################################
+# Parametres :                       #
+#   - inputfile : le DOM au format   #
+#     XML                            #
+######################################
+# Renvoie le JSON correspondant      #
+# a la generation des blocs textuels #
+# depuis les elements du DOM         #
+######################################
 def dom_to_json(inputfile) -> dict:
     json_output = {}
     blocks = []
-    nb_blocks = 0
     tree = ET.parse(inputfile)
-    for element in tree.iter():
-        buffer = ""
-        for text in element.itertext():
-            for char in text:
-                if char != '\t' and char != '\n':
-                    buffer += char
-        if not buffer.isspace():
-            bloc = {'id':nb_blocks, 'text':buffer}
-            blocks.append(bloc)
-            nb_blocks += 1
-    json_output['nb_blocks'] = nb_blocks
+    for first_child in tree.getroot().findall('*'):
+        tag = extract_tag(first_child.tag)
+        if tag == 'body':
+            index = 0
+            for child in first_child.findall('*'):
+                buffer = ""
+                for text in child.itertext():
+                    if not text.isspace():
+                        buffer += text
+                if not len(buffer) == 0:
+                    index += 1
+                    block = {}
+                    block['id'] = index
+                    block['data-xpath'] = child.attrib.get('data-xpath', '')
+                    block['data-area'] = child.attrib.get('data-area', '')
+                    block['data-style'] = select_style(child)
+                    block['text'] = buffer
+                    blocks.append(block)
+                    
+    json_output['nb_blocks'] = len(blocks)
     json_output['blocks'] = blocks
     return json_output
 
@@ -54,7 +122,7 @@ def main(argv):
     if outputfile != '':
         fd = open(outputfile, 'w', encoding="utf8")
         fd.write(json.dumps(json_output, indent=4))
-        print("XML DOM file '"+ inputfile +"' changed into JSON blocks (" + outputfile + ")")
+        print("XML DOM file '"+ inputfile +"' changed to JSON blocks into ''" + outputfile + "''")
     else:
         print(json.dumps(json_output, indent=4))
 
