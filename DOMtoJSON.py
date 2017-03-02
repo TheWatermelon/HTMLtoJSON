@@ -122,7 +122,7 @@ def main(argv):
     if outputfile != '':
         fd = open(outputfile, 'w', encoding="utf8")
         fd.write(json.dumps(json_output, indent=4))
-        print("XML DOM file '"+ inputfile +"' changed to JSON blocks into ''" + outputfile + "''")
+        print("XML DOM file '"+ inputfile +"' changed to JSON blocks into '" + outputfile + "'")
     else:
         print(json.dumps(json_output, indent=4))
 
