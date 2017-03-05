@@ -3,7 +3,6 @@
 import sys
 import json
 import getopt
-import HTMLUtils
 import xml.etree.ElementTree as ET
 
 
