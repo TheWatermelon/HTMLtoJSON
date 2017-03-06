@@ -44,12 +44,9 @@ def main(argv):
         # prepare l'appel a HTMLtoDOM
         xml_filename = input_filename_tuple[0] + "_dom.xml"
         os.system("python HTMLtoDOM.py -i " + clean_filename + " -o " + xml_filename)
-    if outputfile != '':
-        fd = open(outputfile, 'w', encoding="utf8")
-        fd.write(json_output)
-        print("HTML file '"+ inputfile +"' changed into JSON blocks (" + outputfile + ")")
-    else:
-        print(json_output)
+        if outputfile == '':
+            outputfile = input_filename_tuple[0] + ".json"
+        os.system("python DOMtoJSON.py -i " + xml_filename + " -o " + outputfile)
 
 
 if __name__ == "__main__":
