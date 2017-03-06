@@ -1,0 +1,2028 @@
+{
+    "blocks": [
+        {
+            "id": 1,
+            "text": "Visiteurs",
+            "data-xpath": "/html/body/div/div/div/ul/li/a",
+            "data-style": "font-size:10px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:54px; height:22px; line-height:16; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 2,
+            "text": "Adh\u00e9rents",
+            "data-xpath": "/html/body/div/div/div/ul/li[2]/a",
+            "data-style": "font-size:10px; font-weight:normal; font-style:normal; color:rgb(220, 220, 220); width:62px; height:22px; line-height:16; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 3,
+            "text": "ORGANISATEURS D\u2019\u00c9V\u00c9NEMENTS",
+            "data-xpath": "/html/body/div/div/div/ul/li[3]/a",
+            "data-style": "font-size:10px; font-weight:normal; font-style:normal; color:rgb(220, 220, 220); width:170px; height:22px; line-height:16; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 4,
+            "text": "TOUR-OP\u00c9RATEURS",
+            "data-xpath": "/html/body/div/div/div/ul/li[4]/a",
+            "data-style": "font-size:10px; font-weight:normal; font-style:normal; color:rgb(220, 220, 220); width:101px; height:22px; line-height:16; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 5,
+            "text": "PRESSE",
+            "data-xpath": "/html/body/div/div/div/ul/li[5]/a",
+            "data-style": "font-size:10px; font-weight:normal; font-style:normal; color:rgb(220, 220, 220); width:42px; height:22px; line-height:16; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 6,
+            "text": "M\u00c9DIATH\u00c8QUE",
+            "data-xpath": "/html/body/div/div/div/ul/li[7]/a",
+            "data-style": "font-size:10px; font-weight:normal; font-style:normal; color:rgb(220, 220, 220); width:74px; height:22px; line-height:16; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 7,
+            "text": "Site officiel de l'Office du Tourisme et des Congr\u00e8s de Paris",
+            "data-xpath": "/html/body/div/div/div/h1/a",
+            "data-style": "font-size:25px; font-weight:bold; font-style:normal; color:rgb(0, 172, 229); width:425px; height:123px; line-height:30; display:block; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 8,
+            "text": "\n\t\t\tPlan\n\t\t",
+            "data-xpath": "/html/body/div/div/div/ul[2]/li/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(62, 62, 62); width:38px; height:35px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 9,
+            "text": "\n\t\t\tOutils\n\t\t",
+            "data-xpath": "/html/body/div/div/div/ul[2]/li[2]/div/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(62, 62, 62); width:43px; height:26px; line-height:15; display:block; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 10,
+            "text": "gt; M\u00e9t\u00e9o",
+            "data-xpath": "/html/body/div/div/div/ul[2]/li[2]/div/ul/li/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(0, 172, 229); width:auto; height:26px; line-height:15; display:none; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 11,
+            "text": "gt; Convertisseur de devises \u20ac",
+            "data-xpath": "/html/body/div/div/div/ul[2]/li[2]/div/ul/li[2]/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(0, 172, 229); width:auto; height:26px; line-height:15; display:none; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 12,
+            "text": "gt; Convertisseur de surfaces",
+            "data-xpath": "/html/body/div/div/div/ul[2]/li[2]/div/ul/li[3]/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(0, 172, 229); width:auto; height:26px; line-height:15; display:none; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 13,
+            "text": "gt; Newsletter",
+            "data-xpath": "/html/body/div/div/div/ul[2]/li[2]/div/ul/li[4]/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(0, 172, 229); width:auto; height:26px; line-height:15; display:none; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 14,
+            "text": "Mon Panier",
+            "data-xpath": "",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 15,
+            "text": "(0)",
+            "data-xpath": "",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 16,
+            "text": "Voir nos offres",
+            "data-xpath": "",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 17,
+            "text": "Voir nos offres",
+            "data-xpath": "",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 18,
+            "text": "\n\t\t\t(Paris UT+2)\n\t\t",
+            "data-xpath": "/html/body/div/div/div/div/div/div/p[2]",
+            "data-style": "font-size:10px; font-weight:normal; font-style:normal; color:rgb(99, 99, 99); width:57px; height:15px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 19,
+            "text": "ok",
+            "data-xpath": "/html/body/div/div/div/div/form/fieldset/button/span",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:34px; height:23px; line-height:0; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 20,
+            "text": "D\u00e9couvrir",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li/a",
+            "data-style": "font-size:14px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:83px; height:25px; line-height:15; display:block; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 21,
+            "text": "Les grands rendez-vous",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li/div/ul/li/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 22,
+            "text": "Balades \u00e0 Paris",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li/div/ul/li[2]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 23,
+            "text": "Paris pour la premi\u00e8re fois",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li/div/ul/li[3]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 24,
+            "text": "Organisez votre s\u00e9jour avec une agence",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li/div/ul/li[4]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 25,
+            "text": "Paris en images",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li/div/ul/li[5]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 26,
+            "text": "Tourisme Durable",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li/div/ul/li[6]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 27,
+            "text": "Le Paris des Parisiens",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li/div/ul/li[7]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 28,
+            "text": "Guides th\u00e9matiques",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li/div/ul/li[8]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 29,
+            "text": "O\u00f9 dormir",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[2]/a",
+            "data-style": "font-size:14px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:82px; height:25px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 30,
+            "text": "H\u00f4tels",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[2]/div/ul/li/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 31,
+            "text": "R\u00e9sidences / Apparts H\u00f4tels",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[2]/div/ul/li[2]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 32,
+            "text": "Chambres d'h\u00f4tes",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[2]/div/ul/li[3]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 33,
+            "text": "Appartements meubl\u00e9s",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[2]/div/ul/li[4]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 34,
+            "text": "Campings",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[2]/div/ul/li[5]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 35,
+            "text": "H\u00e9bergements Insolites",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[2]/div/ul/li[6]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 36,
+            "text": "Pour les jeunes",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[2]/div/ul/li[7]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 37,
+            "text": "Centrales de r\u00e9servation",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[2]/div/ul/li[8]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 38,
+            "text": "R\u00e9server un h\u00e9bergement",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[2]/div/ul/li[9]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 39,
+            "text": "En famille",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[2]/div/ul/li[10]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 40,
+            "text": "O\u00f9 manger",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[3]/a",
+            "data-style": "font-size:14px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:86px; height:25px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 41,
+            "text": "Restaurants gastronomiques",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[3]/div/ul/li/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 42,
+            "text": "Restauration fran\u00e7aise",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[3]/div/ul/li[2]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 43,
+            "text": "Sp\u00e9cialit\u00e9s \u00e9trang\u00e8res",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[3]/div/ul/li[3]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 44,
+            "text": "Petits budgets",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[3]/div/ul/li[4]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 45,
+            "text": "Repas dans un cadre original",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[3]/div/ul/li[5]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 46,
+            "text": "Caf\u00e9s, bars, pubs",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[3]/div/ul/li[6]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 47,
+            "text": "Salons de th\u00e9s et glaciers",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[3]/div/ul/li[7]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 48,
+            "text": "\u00c9piceries fines et traiteurs",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[3]/div/ul/li[8]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 49,
+            "text": "Centrales de r\u00e9servation",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[3]/div/ul/li[9]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 50,
+            "text": "\u00c9coles de cuisine",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[3]/div/ul/li[10]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 51,
+            "text": "Visiter",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[4]/a",
+            "data-style": "font-size:14px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:54px; height:25px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 52,
+            "text": "Paris Pass ",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[4]/div/ul/li/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 53,
+            "text": "Mus\u00e9es",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[4]/div/ul/li[2]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 54,
+            "text": "Monuments",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[4]/div/ul/li[3]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 55,
+            "text": "Visites guid\u00e9es",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[4]/div/ul/li[4]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 56,
+            "text": "Parcs d'attractions",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[4]/div/ul/li[5]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 57,
+            "text": "Parcs et jardins",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[4]/div/ul/li[6]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 58,
+            "text": "Zoos et aquariums",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[4]/div/ul/li[7]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 59,
+            "text": "Lieux de culte",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[4]/div/ul/li[8]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 60,
+            "text": "Sortir ",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[5]/a",
+            "data-style": "font-size:14px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:53px; height:25px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 61,
+            "text": "Expositions",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[5]/div/ul/li/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 62,
+            "text": "Spectacles",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[5]/div/ul/li[2]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 63,
+            "text": "Concerts",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[5]/div/ul/li[3]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 64,
+            "text": "F\u00eates et festivals",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[5]/div/ul/li[4]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 65,
+            "text": "Sports et jeux",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[5]/div/ul/li[5]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 66,
+            "text": "Foires et salons",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[5]/div/ul/li[6]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 67,
+            "text": "Sorties pour les enfants",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[5]/div/ul/li[7]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 68,
+            "text": "Excursions et plein air",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[5]/div/ul/li[8]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 69,
+            "text": "Shopping",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[5]/div/ul/li[9]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 70,
+            "text": "Pratique",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[6]/a",
+            "data-style": "font-size:14px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:71px; height:25px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 71,
+            "text": "Plans et cartes",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[6]/div/ul/li/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 72,
+            "text": "L'Office du tourisme de Paris",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[6]/div/ul/li[2]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 73,
+            "text": "Se rendre \u00e0 Paris",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[6]/div/ul/li[3]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 74,
+            "text": "Se d\u00e9placer \u00e0 Paris",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[6]/div/ul/li[4]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 75,
+            "text": "Pr\u00e9parer son s\u00e9jour \u00e0 Paris",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[6]/div/ul/li[5]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 76,
+            "text": "Visiter Paris avec un handicap",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[6]/div/ul/li[6]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 77,
+            "text": "Paris en famille",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[6]/div/ul/li[7]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 78,
+            "text": "S\u00e9curit\u00e9 \u00e0 Paris",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[6]/div/ul/li[8]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 79,
+            "text": "Informations utiles",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[6]/div/ul/li[9]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 80,
+            "text": "Adresses utiles",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[6]/div/ul/li[10]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 81,
+            "text": "R\u00e9servez",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[7]/a",
+            "data-style": "font-size:14px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:74px; height:25px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 82,
+            "text": "h\u00f4tels amp; h\u00e9bergements",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[7]/div/ul/li/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 83,
+            "text": "Mus\u00e9es amp; Expositions",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[7]/div/ul/li[2]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 84,
+            "text": "paris city pass",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[7]/div/ul/li[3]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 85,
+            "text": "monuments",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[7]/div/ul/li[4]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 86,
+            "text": "transports \u00e0 paris",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[7]/div/ul/li[5]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 87,
+            "text": "croisi\u00e8res sur la seine",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[7]/div/ul/li[6]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 88,
+            "text": "cabarets amp; spectacles",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[7]/div/ul/li[7]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 89,
+            "text": "visites en bus panoramiques",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[7]/div/ul/li[8]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 90,
+            "text": "excursions amp; balades",
+            "data-xpath": "/html/body/div/div/table/tbody/tr/td/ul/li[7]/div/ul/li[9]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 91,
+            "text": "Bienvenue surINFO.com",
+            "data-xpath": "/html/body/div/div/p",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:960px; height:31px; line-height:31; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 92,
+            "text": "Paris romantique",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div/ul/li/div/a",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:0px; height:0px; line-height:15; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 93,
+            "text": "Paris City Pass",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div/ul/li[2]/div/a",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(51, 51, 51); width:0px; height:0px; line-height:15; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 94,
+            "text": "Paris \u00e0 petits prix",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div/ul/li[3]/div/a",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(51, 51, 51); width:0px; height:0px; line-height:15; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 95,
+            "text": "Exposition Jeff Koons",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div/ul/li[4]/div/a",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(51, 51, 51); width:0px; height:0px; line-height:15; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 96,
+            "text": "Paris romantique",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div/div/div/div/h3/a",
+            "data-style": "font-size:19px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:0px; height:0px; line-height:21; display:inline; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 97,
+            "text": "Bons plans et meilleures adresses",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div/div/div/div/p",
+            "data-style": "font-size:14px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:154px; height:32px; line-height:16; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 98,
+            "text": "Promenades, croisi\u00e8res, sessions shopping, soir\u00e9es \u00e0 deux, nuits inoubliables, demandes en mariage insolites...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div/div/div/div/p[2]",
+            "data-style": "font-size:12px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:154px; height:70px; line-height:14; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 99,
+            "text": "Paris City Pass",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div/h3/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 100,
+            "text": "Transports, mus\u00e9es, croisi\u00e8re : vivez l'exp\u00e9rience...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div/p",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 101,
+            "text": "Disponible en 2, 3 ou 5 jours, ce nouveau Pass vous simplifie la vie et vous fait faire des \u00e9conomies",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div/p[2]",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 102,
+            "text": "Achetez",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div/div/a",
+            "data-style": "font-size:14px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:130px; height:35px; line-height:15; display:none; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 103,
+            "text": "Paris \u00e0 petits prix",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div/div/div[3]/div/h3/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 104,
+            "text": "Toutes les bonnes adresses \u00e0 petits prix",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div/div/div[3]/div/p",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 105,
+            "text": "H\u00e9bergements, loisirs, sorties, shopping, beaut\u00e9\u2026 D\u00e9couvrez notre s\u00e9lection de lieux pas chers",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div/div/div[3]/div/p[2]",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 106,
+            "text": "Exposition Jeff Koons au centre Pompidou",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div/div/div[4]/div/h3/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 107,
+            "text": "La retrospective Jeff Koons au Centre Pompidou est une des expositions majeures du moment \u00e0 Paris",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div/div/div[4]/div/p",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 108,
+            "text": "R\u00e9servez",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div/div/div[4]/div/div/a",
+            "data-style": "font-size:14px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:130px; height:35px; line-height:15; display:none; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 109,
+            "text": "Paris romantique",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div[2]/div/div/h3/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 110,
+            "text": "Promenades, croisi\u00e8res, sessions shopping, soir\u00e9es \u00e0 deux, nuits inoubliables, demandes en mariage insolites...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div[2]/div/div/p",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 111,
+            "text": "Paris City Pass",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div[2]/div[2]/div/h3/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 112,
+            "text": "Disponible en 2, 3 ou 5 jours, ce nouveau Pass vous simplifie la vie et vous fait faire des \u00e9conomies",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div[2]/div[2]/div/p",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 113,
+            "text": "Paris \u00e0 petits prix",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div[2]/div[3]/div/h3/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 114,
+            "text": "H\u00e9bergements, loisirs, sorties, shopping, beaut\u00e9\u2026 D\u00e9couvrez notre s\u00e9lection de lieux pas chers",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div[2]/div[3]/div/p",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 115,
+            "text": "Exposition Jeff Koons au centre Pompidou",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div[2]/div[4]/div/h3/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 116,
+            "text": "La retrospective Jeff Koons au Centre Pompidou est une des expositions majeures du moment \u00e0 Paris",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div[2]/div[4]/div/p",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 117,
+            "text": "Nouvel an chinois \u00e0 Paris",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div/h3/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(0, 172, 229); width:0px; height:0px; line-height:12; display:inline; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 118,
+            "text": "Plusieurs quartiers de Paris f\u00eatent le Nouvel An Chinois....",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div/p",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:138px; height:36px; line-height:12; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 119,
+            "text": "50 incontournables parisiens en un week-end",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/div/h3/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(0, 172, 229); width:0px; height:0px; line-height:12; display:inline; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 120,
+            "text": "Nos suggestions de mus\u00e9es, monuments, places, quartiers ou...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/div/p",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:138px; height:36px; line-height:12; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 121,
+            "text": "Com\u00e9dies musicales \u00e0 Paris",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/div/h3/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(0, 172, 229); width:0px; height:0px; line-height:12; display:inline; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 122,
+            "text": "Mistinguett, Le Bal des Vampires, Flash Dance, les Trois...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/div/p",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:138px; height:36px; line-height:12; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 123,
+            "text": "+ de visites",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[2]/div/a",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(0, 172, 229); width:292px; height:17px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 124,
+            "text": "Les chefs parisiens au top du palmar\u00e8s",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[3]/div/div/div/h3/a",
+            "data-style": "font-size:14px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:0px; height:0px; line-height:12; display:inline; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 125,
+            "text": "13 chefs parisiens dans le top 100 des plus grands chefs au monde  ",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[3]/div/div/div/p",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:276px; height:24px; line-height:12; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 126,
+            "text": "Consulter",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[3]/div/a",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(0, 172, 229); width:292px; height:17px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 127,
+            "text": "\n\t\t\t\u00c0 ne pas manquer\n\t\t",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/ul/li/a",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(99, 99, 99); width:121px; height:22px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 128,
+            "text": "\n\t\t\tExpositions\n\t\t",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/ul/li[2]/a",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:81px; height:21px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 129,
+            "text": "\n\t\t\tSpectacles\n\t\t",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/ul/li[3]/a",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:76px; height:21px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 130,
+            "text": "\n\t\t\tEn famille\n\t\t",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/ul/li[4]/a",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:71px; height:21px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 131,
+            "text": "Salon international de l'Agriculture, l'Agriculture en...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul/li/div/h3/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(0, 172, 229); width:0px; height:0px; line-height:12; display:inline; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 132,
+            "text": "Un salon vachement instructif !Avec le salon de l'agriculture, si vous...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul/li/div/p",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:140px; height:36px; line-height:12; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 133,
+            "text": "R\u00e9servez",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul/li/div[2]/a",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:108px; height:27px; line-height:15; display:inline-block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 134,
+            "text": "Au temps de Klimt. La S\u00e9cession \u00e0 Vienne, exposition",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul/li[2]/div/h3/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(0, 172, 229); width:0px; height:0px; line-height:12; display:inline; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 135,
+            "text": "Chefs-d'\u0153uvre de la S\u00e9cession et de l'avant-garde autrichienne.La...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul/li[2]/div/p",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:140px; height:36px; line-height:12; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 136,
+            "text": "Splendeurs des Han. Essor de l'empire c\u00e9leste, exposition",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul/li[3]/div/h3/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(0, 172, 229); width:0px; height:0px; line-height:12; display:inline; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 137,
+            "text": "Prenez la route de la soie.Apr\u00e8s le r\u00e8gne de \"l\u2019auguste...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul/li[3]/div/p",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:140px; height:36px; line-height:12; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 138,
+            "text": "R\u00e9servez",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul/li[3]/div[2]/a",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:108px; height:27px; line-height:15; display:inline-block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 139,
+            "text": "Dali fait le mur, exposition",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[2]/li/div/h3/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 140,
+            "text": "Ouvrez l'espace public.Pour sa prochaine exposition, l'Espace Dali donne...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[2]/li/div/p",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 141,
+            "text": "R\u00e9servez",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[2]/li/div[2]/a",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:auto; height:20px; line-height:15; display:none; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 142,
+            "text": "Jeff Koons, exposition",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[2]/li[2]/div/h3/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 143,
+            "text": "De Wall Street au mus\u00e9e.Artiste de la sc\u00e8ne contemporaine am\u00e9ricaine,...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[2]/li[2]/div/p",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 144,
+            "text": "R\u00e9servez",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[2]/li[2]/div[2]/a",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:auto; height:20px; line-height:15; display:none; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 145,
+            "text": "Frank Gehry, exposition",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[2]/li[3]/div/h3/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 146,
+            "text": "Une \u0153uvre d'une grande envergure.Cette exposition revient sur...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[2]/li[3]/div/p",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 147,
+            "text": "Olivier Giraud, How to become parisian in one hour ?,...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[3]/li/div/h3/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 148,
+            "text": "A must-see show.Dans une autre vie, Olivier Giraud \u00e9tait Ma\u00eetre...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[3]/li/div/p",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 149,
+            "text": "R\u00e9servez",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[3]/li/div[2]/a",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:auto; height:20px; line-height:15; display:none; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 150,
+            "text": "Le Bal des Vampires, le musical de Roman Polanski au...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[3]/li[2]/div/h3/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 151,
+            "text": "Le bal peut commencer\u2026Pour la premi\u00e8re fois en France et en...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[3]/li[2]/div/p",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 152,
+            "text": "R\u00e9servez",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[3]/li[2]/div[2]/a",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:auto; height:20px; line-height:15; display:none; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 153,
+            "text": "Pell\u00e9as et M\u00e9lisande, op\u00e9ra de Debussy",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[3]/li[3]/div/h3/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 154,
+            "text": "Drame amoureux.Ench\u00e2ss\u00e9 dans un parc trop sombre o\u00f9 coule l\u2019eau...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[3]/li[3]/div/p",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 155,
+            "text": "R\u00e9servez",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[3]/li[3]/div[2]/a",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:auto; height:20px; line-height:15; display:none; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 156,
+            "text": "Tintin et Milou arrivent au Mus\u00e9e en herbe !, exposition",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[4]/li/div/h3/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 157,
+            "text": "Un sacr\u00e9 \u00e9v\u00e8nement, tonnerre de Brest !En 2015, \u00e0 l'occasion des 40...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[4]/li/div/p",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 158,
+            "text": "Disney Live ! La bande \u00e0 Mickey - Magical Music Hall,...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[4]/li[2]/div/h3/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 159,
+            "text": "Un moment de magie.Vous avez envie de danser et chanter en famille ?...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[4]/li[2]/div/p",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 160,
+            "text": "R\u00e9servez",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[4]/li[2]/div[2]/a",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:auto; height:20px; line-height:15; display:none; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 161,
+            "text": "Patinoire de l'H\u00f4tel de Ville de Paris - Mairie de Paris",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[4]/li[3]/div/h3/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 162,
+            "text": "La Mairie de Paris chausse les patins.Comme chaque ann\u00e9e, les deux...",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/ul[4]/li[3]/div/p",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 163,
+            "text": "Trouver",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/div/form/fieldset/p[3]",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:177px; height:27px; line-height:15; display:block; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 164,
+            "text": "+ d'\u00e9v\u00e9nements",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[4]/div/a",
+            "data-style": "font-size:12px; font-weight:bold; font-style:normal; color:rgb(0, 172, 229); width:622px; height:17px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 165,
+            "text": "Le mus\u00e9e du Louvre",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[5]/div/div/div/div/div/ul/li/a[2]",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:144px; height:12px; line-height:12; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 166,
+            "text": "La Basilique du Sacr\u00e9-C\u0153ur",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[5]/div/div/div/div/div/ul/li[2]/a[2]",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:144px; height:12px; line-height:12; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 167,
+            "text": "Le Ch\u00e2teau de Versailles",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[5]/div/div/div/div/div/ul/li[3]/a[2]",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:144px; height:12px; line-height:12; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 168,
+            "text": "La Conciergerie",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[5]/div/div/div/div/div/ul/li[4]/a[2]",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:144px; height:12px; line-height:12; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 169,
+            "text": "Les Invalides",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[5]/div/div/div/div/div/ul/li[5]/a[2]",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:144px; height:12px; line-height:12; display:block; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 170,
+            "text": "La Cath\u00e9drale Notre Dame",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[5]/div/div/div/div/div/ul/li[6]/a[2]",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:144px; height:12px; line-height:12; display:block; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 171,
+            "text": "L'Op\u00e9ra Garnier",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[5]/div/div/div/div/div/ul/li[7]/a[2]",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:144px; height:12px; line-height:12; display:block; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 172,
+            "text": "Le mus\u00e9e d'Orsay",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[5]/div/div/div/div/div/ul/li[8]/a[2]",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:144px; height:12px; line-height:12; display:block; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 173,
+            "text": "Le Centre Pompidou",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[5]/div/div/div/div/div/ul/li[9]/a[2]",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:144px; height:12px; line-height:12; display:block; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 174,
+            "text": "Le mus\u00e9e du Quai Branly",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div/div[5]/div/div/div/div/div/ul/li[10]/a[2]",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:144px; height:12px; line-height:12; display:block; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 175,
+            "text": "R\u00e9servez votre activit\u00e9 ",
+            "data-xpath": "",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 176,
+            "text": "Go !",
+            "data-xpath": "",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 177,
+            "text": "R\u00e9servez votre h\u00f4tel",
+            "data-xpath": "",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 178,
+            "text": "Indiff\u00e9rentIndiff\u00e9rentnon class\u00e91 \u00e9toile2 \u00e9toiles3 \u00e9toiles4 \u00e9toiles5 \u00e9toiles",
+            "data-xpath": "",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 179,
+            "text": "TousTousH\u00f4telsAppart'h\u00f4tels",
+            "data-xpath": "",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 180,
+            "text": "1 nuit1 nuit2 nuits3 nuits4 nuits5 nuits6 nuits7 nuits8 nuits9 nuits10 nuits11 nuits12 nuits13 nuits14 nuits15 nuits16 nuits17 nuits18 nuits19 nuits20 nuits21 nuits22 nuits23 nuits24 nuits25 nuits26 nuits27 nuits28 nuits29 nuits30 nuits",
+            "data-xpath": "",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 181,
+            "text": "2123456789101112131415",
+            "data-xpath": "",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 182,
+            "text": "(\u226412 ans)",
+            "data-xpath": "",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 183,
+            "text": "001234",
+            "data-xpath": "",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 184,
+            "text": "RechercherVoir les disponibilit\u00e9s",
+            "data-xpath": "",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 185,
+            "text": "City Guide",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div[2]/div[5]/div/div/table/tbody/tr/td/a",
+            "data-style": "font-size:13px; font-weight:bold; font-style:normal; color:rgb(99, 99, 99); width:96px; height:15px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 186,
+            "text": "Points d'accueil",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div[2]/div[5]/div/div/table/tbody/tr/td[2]/a",
+            "data-style": "font-size:13px; font-weight:bold; font-style:normal; color:rgb(99, 99, 99); width:96px; height:30px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 187,
+            "text": "M\u00e9t\u00e9o",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div[2]/div[5]/div/div/table/tbody/tr[3]/td/a",
+            "data-style": "font-size:13px; font-weight:bold; font-style:normal; color:rgb(99, 99, 99); width:91px; height:15px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 188,
+            "text": "Facebook",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div[2]/div[5]/div/div/table/tbody/tr[3]/td[2]/a",
+            "data-style": "font-size:13px; font-weight:bold; font-style:normal; color:rgb(99, 99, 99); width:96px; height:15px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 189,
+            "text": "Twitter",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div[2]/div[5]/div/div/table/tbody/tr[5]/td/a",
+            "data-style": "font-size:13px; font-weight:bold; font-style:normal; color:rgb(99, 99, 99); width:96px; height:15px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 190,
+            "text": "TripAdvisor",
+            "data-xpath": "/html/body/div/div/div[2]/div/div/div/div[2]/div[5]/div/div/table/tbody/tr[5]/td[2]/a",
+            "data-style": "font-size:13px; font-weight:bold; font-style:normal; color:rgb(99, 99, 99); width:96px; height:15px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 191,
+            "text": "Publicit\u00e9",
+            "data-xpath": "/html/body/div/div[2]/div/div/p",
+            "data-style": "font-size:8px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:708px; height:9px; line-height:10; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 192,
+            "text": "Newsletter",
+            "data-xpath": "/html/body/div/div[2]/div/div[2]/div/a",
+            "data-style": "font-size:12px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:115px; height:15px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 193,
+            "text": "Suivez-nous sur Facebook",
+            "data-xpath": "/html/body/div/div[2]/div/div[2]/div[2]/a",
+            "data-style": "font-size:16px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:28px; height:28px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 194,
+            "text": "Suivez-nous sur Twitter",
+            "data-xpath": "/html/body/div/div[2]/div/div[2]/div[2]/a[2]",
+            "data-style": "font-size:16px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:28px; height:28px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 195,
+            "text": "D\u00e9couvrir",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:216px; height:19px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 196,
+            "text": "gt; Les grands rendez-vous",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li/ul/li/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 197,
+            "text": "gt; Balades \u00e0 Paris",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li/ul/li[2]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 198,
+            "text": "gt; Paris pour la premi\u00e8re fois",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li/ul/li[3]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 199,
+            "text": "gt; Organisez votre s\u00e9jour avec une agence",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li/ul/li[4]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 200,
+            "text": "gt; Paris en images",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li/ul/li[5]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 201,
+            "text": "gt; Tourisme Durable",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li/ul/li[6]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 202,
+            "text": "gt; Le Paris des Parisiens",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li/ul/li[7]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 203,
+            "text": "gt; Guides th\u00e9matiques",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li/ul/li[8]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 204,
+            "text": "O\u00f9 dormir",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[2]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:216px; height:19px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 205,
+            "text": "gt; H\u00f4tels",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[2]/ul/li/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 206,
+            "text": "gt; R\u00e9sidences / Apparts H\u00f4tels",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[2]/ul/li[2]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 207,
+            "text": "gt; Chambres d'h\u00f4tes",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[2]/ul/li[3]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 208,
+            "text": "gt; Appartements meubl\u00e9s",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[2]/ul/li[4]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 209,
+            "text": "gt; Campings",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[2]/ul/li[5]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 210,
+            "text": "gt; H\u00e9bergements Insolites",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[2]/ul/li[6]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 211,
+            "text": "gt; Pour les jeunes",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[2]/ul/li[7]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 212,
+            "text": "gt; Centrales de r\u00e9servation",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[2]/ul/li[8]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 213,
+            "text": "gt; R\u00e9server un h\u00e9bergement",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[2]/ul/li[9]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 214,
+            "text": "gt; En famille",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[2]/ul/li[10]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 215,
+            "text": "O\u00f9 manger",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[3]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:216px; height:19px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 216,
+            "text": "gt; Restaurants gastronomiques",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[3]/ul/li/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 217,
+            "text": "gt; Restauration fran\u00e7aise",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[3]/ul/li[2]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 218,
+            "text": "gt; Sp\u00e9cialit\u00e9s \u00e9trang\u00e8res",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[3]/ul/li[3]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 219,
+            "text": "gt; Petits budgets",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[3]/ul/li[4]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 220,
+            "text": "gt; Repas dans un cadre original",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[3]/ul/li[5]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 221,
+            "text": "gt; Caf\u00e9s, bars, pubs",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[3]/ul/li[6]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 222,
+            "text": "gt; Salons de th\u00e9s et glaciers",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[3]/ul/li[7]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 223,
+            "text": "gt; \u00c9piceries fines et traiteurs",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[3]/ul/li[8]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 224,
+            "text": "gt; Centrales de r\u00e9servation",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[3]/ul/li[9]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 225,
+            "text": "gt; \u00c9coles de cuisine",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[3]/ul/li[10]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 226,
+            "text": "Visiter",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[4]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:216px; height:19px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 227,
+            "text": "gt; Paris Pass ",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[4]/ul/li/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 228,
+            "text": "gt; Mus\u00e9es",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[4]/ul/li[2]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 229,
+            "text": "gt; Monuments",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[4]/ul/li[3]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 230,
+            "text": "gt; Visites guid\u00e9es",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[4]/ul/li[4]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 231,
+            "text": "gt; Parcs d'attractions",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[4]/ul/li[5]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 232,
+            "text": "gt; Parcs et jardins",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[4]/ul/li[6]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 233,
+            "text": "gt; Zoos et aquariums",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[4]/ul/li[7]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 234,
+            "text": "gt; Lieux de culte",
+            "data-xpath": "/html/body/div/div[2]/div/ul/li[4]/ul/li[8]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 235,
+            "text": "Sortir ",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:216px; height:19px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 236,
+            "text": "gt; Expositions",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li/ul/li/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 237,
+            "text": "gt; Spectacles",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li/ul/li[2]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 238,
+            "text": "gt; Concerts",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li/ul/li[3]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 239,
+            "text": "gt; F\u00eates et festivals",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li/ul/li[4]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 240,
+            "text": "gt; Sports et jeux",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li/ul/li[5]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 241,
+            "text": "gt; Foires et salons",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li/ul/li[6]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 242,
+            "text": "gt; Sorties pour les enfants",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li/ul/li[7]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 243,
+            "text": "gt; Excursions et plein air",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li/ul/li[8]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 244,
+            "text": "gt; Shopping",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li/ul/li[9]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 245,
+            "text": "Pratique",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li[2]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:216px; height:19px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 246,
+            "text": "gt; Plans et cartes",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li[2]/ul/li/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 247,
+            "text": "gt; L'Office du tourisme de Paris",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li[2]/ul/li[2]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 248,
+            "text": "gt; Se rendre \u00e0 Paris",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li[2]/ul/li[3]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 249,
+            "text": "gt; Se d\u00e9placer \u00e0 Paris",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li[2]/ul/li[4]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 250,
+            "text": "gt; Pr\u00e9parer son s\u00e9jour \u00e0 Paris",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li[2]/ul/li[5]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 251,
+            "text": "gt; Visiter Paris avec un handicap",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li[2]/ul/li[6]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 252,
+            "text": "gt; Paris en famille",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li[2]/ul/li[7]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 253,
+            "text": "gt; S\u00e9curit\u00e9 \u00e0 Paris",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li[2]/ul/li[8]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 254,
+            "text": "gt; Informations utiles",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li[2]/ul/li[9]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 255,
+            "text": "gt; Adresses utiles",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li[2]/ul/li[10]/a",
+            "data-style": "",
+            "data-area": ""
+        },
+        {
+            "id": 256,
+            "text": "R\u00e9servez",
+            "data-xpath": "/html/body/div/div[2]/div/ul[2]/li[3]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:216px; height:19px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 257,
+            "text": "info.com",
+            "data-xpath": "/html/body/div/div[2]/div/div[3]/dl/dt/span",
+            "data-style": "font-size:15px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:0px; height:0px; line-height:15; display:inline; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 258,
+            "text": "Nous conna\u00eetre",
+            "data-xpath": "/html/body/div/div[2]/div/div[3]/dl/dd/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(0, 0, 0); width:0px; height:0px; line-height:12; display:inline; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 259,
+            "text": "CGV",
+            "data-xpath": "/html/body/div/div[2]/div/div[3]/dl/dd[2]/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(0, 0, 0); width:0px; height:0px; line-height:12; display:inline; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 260,
+            "text": "Informations l\u00e9gales",
+            "data-xpath": "/html/body/div/div[2]/div/div[3]/dl/dd[3]/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(0, 0, 0); width:0px; height:0px; line-height:12; display:inline; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 261,
+            "text": "Contact",
+            "data-xpath": "/html/body/div/div[2]/div/div[3]/dl/dd[4]/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(0, 0, 0); width:0px; height:0px; line-height:12; display:inline; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 262,
+            "text": "R\u00e9seaux sociaux",
+            "data-xpath": "/html/body/div/div[2]/div/div[3]/dl/dd[5]/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(0, 0, 0); width:0px; height:0px; line-height:12; display:inline; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 263,
+            "text": "Emploi et carri\u00e8res",
+            "data-xpath": "/html/body/div/div[2]/div/div[3]/dl[2]/dd/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(0, 0, 0); width:0px; height:0px; line-height:12; display:inline; x-visible:invisible",
+            "data-area": ""
+        },
+        {
+            "id": 264,
+            "text": "R\u00e9servez votre h\u00e9bergement",
+            "data-xpath": "/html/body/div/div[2]/div/div[4]/dl/dd/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:0px; height:0px; line-height:13; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 265,
+            "text": "Billetterie en ligne",
+            "data-xpath": "/html/body/div/div[2]/div/div[4]/dl/dd[2]/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:0px; height:0px; line-height:13; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 266,
+            "text": "Paris City Pass",
+            "data-xpath": "/html/body/div/div[2]/div/div[4]/dl/dd[3]/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:0px; height:0px; line-height:13; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 267,
+            "text": "R\u00e9servez votre soir\u00e9e au cabaret",
+            "data-xpath": "/html/body/div/div[2]/div/div[4]/dl/dd[4]/a",
+            "data-style": "font-size:11px; font-weight:bold; font-style:normal; color:rgb(255, 255, 255); width:0px; height:0px; line-height:13; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 268,
+            "text": "Visiteurs",
+            "data-xpath": "/html/body/div/div[2]/div/dl/dd/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:57px; height:10px; line-height:10; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 269,
+            "text": "Adh\u00e9rents",
+            "data-xpath": "/html/body/div/div[2]/div/dl/dd[2]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:67px; height:10px; line-height:10; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 270,
+            "text": "ORGANISATEURS D\u2019\u00c9V\u00c9NEMENTS",
+            "data-xpath": "/html/body/div/div[2]/div/dl/dd[3]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:182px; height:10px; line-height:10; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 271,
+            "text": "TOUR-OP\u00c9RATEURS",
+            "data-xpath": "/html/body/div/div[2]/div/dl/dd[4]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:111px; height:10px; line-height:10; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 272,
+            "text": "PRESSE",
+            "data-xpath": "/html/body/div/div[2]/div/dl/dd[5]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:43px; height:10px; line-height:10; display:block; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 273,
+            "text": "Fran\u00e7ais",
+            "data-xpath": "/html/body/div/div[2]/div/div[5]/ul/li/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:0px; height:0px; line-height:11; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 274,
+            "text": "English",
+            "data-xpath": "/html/body/div/div[2]/div/div[5]/ul/li[2]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:0px; height:0px; line-height:11; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 275,
+            "text": "Espa\u00f1ol",
+            "data-xpath": "/html/body/div/div[2]/div/div[5]/ul/li[3]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:0px; height:0px; line-height:11; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 276,
+            "text": "Deutsch",
+            "data-xpath": "/html/body/div/div[2]/div/div[5]/ul/li[4]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:0px; height:0px; line-height:11; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 277,
+            "text": "Italiano",
+            "data-xpath": "/html/body/div/div[2]/div/div[5]/ul/li[5]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:0px; height:0px; line-height:11; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 278,
+            "text": "Portugu\u00eas",
+            "data-xpath": "/html/body/div/div[2]/div/div[5]/ul/li[6]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:0px; height:0px; line-height:11; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 279,
+            "text": "Nederlands",
+            "data-xpath": "/html/body/div/div[2]/div/div[5]/ul/li[7]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:0px; height:0px; line-height:11; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 280,
+            "text": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+            "data-xpath": "/html/body/div/div[2]/div/div[5]/ul/li[8]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:0px; height:0px; line-height:11; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 281,
+            "text": "\u65e5\u672c\u8a9e",
+            "data-xpath": "/html/body/div/div[2]/div/div[5]/ul/li[9]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:0px; height:0px; line-height:11; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 282,
+            "text": "\u4e2d\u6587",
+            "data-xpath": "/html/body/div/div[2]/div/div[5]/ul/li[10]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:0px; height:0px; line-height:11; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 283,
+            "text": "\ud55c\uad6d\uc5b4",
+            "data-xpath": "/html/body/div/div[2]/div/div[5]/ul/li[11]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(255, 255, 255); width:0px; height:0px; line-height:11; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 284,
+            "text": "nbsp;",
+            "data-xpath": "/html/body/div/div[2]/div/dl[2]/dd/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(0, 172, 229); width:0px; height:0px; line-height:86; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 285,
+            "text": "nbsp;",
+            "data-xpath": "/html/body/div/div[2]/div/dl[2]/dd[2]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(0, 172, 229); width:0px; height:0px; line-height:86; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 286,
+            "text": "nbsp;",
+            "data-xpath": "/html/body/div/div[2]/div/dl[2]/dd[3]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(0, 172, 229); width:0px; height:0px; line-height:86; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 287,
+            "text": "nbsp;",
+            "data-xpath": "/html/body/div/div[2]/div/dl[2]/dd[4]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(0, 172, 229); width:0px; height:0px; line-height:86; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 288,
+            "text": "nbsp;",
+            "data-xpath": "/html/body/div/div[2]/div/dl[2]/dd[5]/a",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(0, 172, 229); width:0px; height:0px; line-height:86; display:inline; x-visible:visible",
+            "data-area": ""
+        },
+        {
+            "id": 289,
+            "text": "\n\t\t\tcopy; 2010 Office du Tourisme et des Congr\u00e8s de Parisnbsp;nbsp;nbsp;nbsp;nbsp;nbsp;\n\t\t\tTous droits r\u00e9serv\u00e9s",
+            "data-xpath": "/html/body/div/div[2]/div/p",
+            "data-style": "font-size:11px; font-weight:normal; font-style:normal; color:rgb(51, 51, 51); width:960px; height:15px; line-height:15; display:block; x-visible:visible",
+            "data-area": ""
+        }
+    ],
+    "nb_blocks": 289
+}
