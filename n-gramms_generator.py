@@ -7,33 +7,29 @@ import json
 import HTMLUtils
 
 
-def add_n_gramm_to_list(n_gramm_list, new_n_gramm, ponctuation):
-    n_gramm_list.append(new_n_gramm)
-    for n_gramm in n_gramm_list:
+def add_n_gramm_to_list(n_gramms_list, new_n_gramm, ponctuation):
+    n_gramms_list.append(new_n_gramm)
+    for n_gramm in n_gramms_list:
         if n_gramm[0] == new_n_gramm[0] - 1:
-            n_gramm_list.append((new_n_gramm[0], n_gramm[1] + 1, n_gramm[2] + ponctuation + new_n_gramm[2]))
+            n_gramms_list.append((new_n_gramm[0], n_gramm[1] + 1, n_gramm[2] + ponctuation + new_n_gramm[2]))
 
 
 ######################################
-# parse_html(inputfile) -> dict :    #
+# generate_ngramms(inputfile) -> dict :    #
 ######################################
 # Parametres :                       #
-#  - inputfile : fichier HTML source #
-#  - white_list : balises autorisees #
+#  - inputfile : fichier JSON source #
 ######################################
 # Renvoie le JSON correspondant au   #
-# decoupage de la page html en ne    #
-# selectionnant que les balises qui  #
-# sont dans la liste blanche         #
+# decoupage en n-grammes          #
 ######################################
 def generate_ngramms(inputfile) -> dict:
     ponc_faible = [' ', '-', '\'']
     ponc_forte = ['.', ',', ';', '\n']
 
-    json_input = json.load(open(inputfile, 'r', encoding="utf8"))
-    json_output = {'nb_blocks': json_input['nb_blocks']}
+    json_output = json.load(open(inputfile, 'r', encoding="utf8"))
 
-    for block in json_input['blocks']:
+    for block in json_output['blocks']:
         text = block['text']
         all_n_gramms = []
         current_n_gramms = []
@@ -51,6 +47,9 @@ def generate_ngramms(inputfile) -> dict:
                 ponctuation = char
                 buffer = ""
                 index += 1
+                # ajout de la ponctuation faible comme n-gramme
+                if ponc_faible.__contains__(char) and char != ' ':
+                    add_n_gramm_to_list(current_n_gramms, (index, 1, buffer), ponctuation)
                 if ponc_forte.__contains__(char):
                     if len(current_n_gramms) > 0:
                         all_n_gramms.append(current_n_gramms)
@@ -63,8 +62,16 @@ def generate_ngramms(inputfile) -> dict:
         # cas ou le texte ne contient qu'un mot
         else:
             all_n_gramms.append([(0, 1, buffer)])
-        output_block = { 'id': block['id'], 'text': text, 'n-gramms': all_n_gramms }
-        json_output[block['id']] = output_block
+        # construction du block avec ses n-grammes
+        output_block = {}
+        for key,value in block.items():
+            output_block[key] = value
+        new_list = []
+        for n_gramms_list in all_n_gramms:
+            for item in n_gramms_list:
+                n_gramm = {'nombre_de_mots': item[1], 'n_gramme': item[2]}
+                new_list.append(n_gramm)
+        block['n_grammes'] = new_list
     return json_output
 
 
@@ -95,7 +102,7 @@ def main(argv):
     if outputfile != '':
         fd = open(outputfile, 'w')
         fd.write(json.dumps(json_output, indent=4))
-        print("JSON file created!")
+        print("n-grammes generated into '" + outputfile + "' !")
     else:
         print(json.dumps(json_output, indent=4))
 

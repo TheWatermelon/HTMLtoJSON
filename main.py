@@ -47,6 +47,7 @@ def main(argv):
         if outputfile == '':
             outputfile = input_filename_tuple[0] + ".json"
         os.system("python DOMtoJSON.py -i " + xml_filename + " -o " + outputfile)
+        os.system("python n-gramms_generator.py -i " + outputfile + " -o " + outputfile)
 
 
 if __name__ == "__main__":

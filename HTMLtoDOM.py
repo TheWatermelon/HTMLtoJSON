@@ -156,8 +156,8 @@ def main(argv):
                         entity_code += char
                         if xml_entities.__contains__(entity_code):
                             buffer += entity_code
-                        elif html_entities.keys().__contains__(entity_code):
-                            buffer += html_entities[entity_code]
+                        #elif html_entities.keys().__contains__(entity_code):
+                        #    buffer += html_entities[entity_code]
                         entity_code = ""
                         entity = False
 
