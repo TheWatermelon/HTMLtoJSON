@@ -3,7 +3,8 @@
 
 import sys
 import getopt
-import xml.dom.minidom
+from xml.dom import minidom
+from xml.parsers.expat import ExpatError
 import HTMLUtils
 from HTMLParser import Lexical
 
@@ -59,12 +60,20 @@ def main(argv):
                             entity_code = ""
                             entity = False
             res = lex.suivant()
-        print(buffer)
-        exit()
-        dom = xml.dom.minidom.parseString(buffer)
-        xml_output = dom.toprettyxml()
+        try:
+            dom = minidom.parseString(buffer)
+            xml_output = dom.toprettyxml()
+        except ExpatError, e:
+            print(e)
+            error = ""
+            for i in range(e.offset-35, e.offset+25):
+                if i == e.offset:
+                    error += ' [ ' + buffer[i] + ' ] '
+                else:
+                    error += buffer[i]
+            print(error)
     if outputfile != '':
-        fd = open(outputfile, 'w', encoding="utf8")
+        fd = open(outputfile, 'wb')
         fd.write(xml_output)
         print("DOM of '" + inputfile + "' generated into '" + outputfile + "' !")
     else:

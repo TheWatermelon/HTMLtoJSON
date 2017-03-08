@@ -69,24 +69,21 @@ def dom_to_json(inputfile):
     json_output = {}
     blocks = []
     tree = ET.parse(inputfile)
-    for first_child in tree.getroot().findall('*'):
-        tag = extract_tag(first_child.tag)
-        if tag == 'body':
-            index = 0
-            for child in first_child.findall('*'):
-                buffer = ""
-                for text in child.itertext():
-                    if not text.isspace():
-                        buffer += text
-                if not len(buffer) == 0:
-                    index += 1
-                    block = {}
-                    block['id'] = index
-                    block['data-xpath'] = child.attrib.get('data-xpath', '')
-                    block['data-area'] = child.attrib.get('data-area', '')
-                    block['data-style'] = select_style(child)
-                    block['text'] = buffer
-                    blocks.append(block)
+    index = 0
+    for child in tree.getroot().findall('*'):
+        buffer = ""
+        for text in child.itertext():
+            if not text.isspace():
+                buffer += text
+        if not len(buffer) == 0:
+            index += 1
+            block = {}
+            block['id'] = index
+            block['data-xpath'] = child.attrib.get('data-xpath', '')
+            block['data-area'] = child.attrib.get('data-area', '')
+            block['data-style'] = select_style(child)
+            block['text'] = buffer
+            blocks.append(block)
                     
     json_output['nb_blocks'] = len(blocks)
     json_output['blocks'] = blocks
@@ -119,7 +116,7 @@ def main(argv):
     if inputfile != '':
         json_output = dom_to_json(inputfile)
     if outputfile != '':
-        fd = open(outputfile, 'w', encoding="utf8")
+        fd = open(outputfile, 'wb')
         fd.write(json.dumps(json_output, indent=4))
         print("XML DOM file '"+ inputfile +"' changed to JSON blocks into '" + outputfile + "'")
     else:

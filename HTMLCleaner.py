@@ -8,6 +8,24 @@ from HTMLParser import Lexical
 import HTMLUtils
 
 
+def clean_balise(lex, balise):
+    param_list = HTMLUtils.extract_parameters_from_html(balise.representation)
+    attributs = ['type', 'data-bbox', 'data-xpath', 'data-style', 'data-area']
+    new_balise = ""
+    if lex.estBaliseFermante(balise):
+        new_balise += '</'
+    else:
+        new_balise += '<'
+    for param in param_list:
+        if attributs.__contains__(param[0]):
+            if param[0] != 'type':
+                new_balise += ' ' + param[0] + '="' + param[1] + '"'
+            else:
+                new_balise += param[1]
+    new_balise += '>'
+    return new_balise
+
+
 ##############################################
 # clean_html(inputfile, clean_list) -> str : #
 ##############################################
@@ -35,7 +53,7 @@ def clean_html(inputfile, clean_list):
         if len(clean_list) > 0 and clean_list.__contains__(type_to_check):
             if lex.estBaliseOuvrante(res) or lex.estBaliseFermante(res):
                 if param_list[0][1] == type_to_check:
-                    html_output += res.representation + "\n"
+                    html_output += clean_balise(lex, res) + "\n"
             else:
                 if not lex.estCommentaire(res):
                     html_output += res.representation + "\n"
