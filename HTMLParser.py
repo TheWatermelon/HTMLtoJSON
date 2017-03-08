@@ -46,7 +46,7 @@ class Jeton:
 ###########################################
 class Lexical:
     def __init__(self, filename):
-        self.inputfile = open(filename, 'rb')
+        self.inputfile = open(filename, 'r', encoding="utf-8")
         self.ligne = self.inputfile.readline(1000000)
         self.position = 0
 

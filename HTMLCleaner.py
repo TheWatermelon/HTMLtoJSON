@@ -91,7 +91,7 @@ def main(argv):
     if inputfile != '':
         html_output = clean_html(inputfile, clean_list)
     if outputfile != '':
-        fd = open(outputfile, 'wb')
+        fd = open(outputfile, 'w', encoding="utf-8")
         fd.write(html_output)
         print("HTML file '"+ inputfile +"' cleaned into '" + outputfile + "' !")
     else:

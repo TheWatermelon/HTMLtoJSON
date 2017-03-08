@@ -5,6 +5,10 @@ import os
 import sys
 import getopt
 import HTMLUtils
+import HTMLCleaner
+import HTMLtoDOM
+import DOMtoJSON
+import n_gramms_generator
 
 def main(argv):
     inputfile = ''
@@ -34,7 +38,6 @@ def main(argv):
     if inputfile != '':
         # recupere le prefixe du fichier html
         input_filename_tuple = inputfile.partition('.html')
-        print(input_filename_tuple)
         # prepare l'appel a HTMLCleaner
         clean_filename = input_filename_tuple[0] + "_clean.html"
         if len(clean_list) == 0:
@@ -42,16 +45,21 @@ def main(argv):
         clean_args = ""
         for value in clean_list:
             clean_args += value + ','
-        os.system("python HTMLCleaner.py -i " + inputfile + " -l " + clean_args + " -o " + clean_filename)
+        subscript_argv = ['-i', inputfile, '-l', clean_args, '-o', clean_filename]
+        HTMLCleaner.main(subscript_argv)
         # prepare l'appel a HTMLtoDOM
         xml_filename = input_filename_tuple[0] + "_dom.xml"
-        os.system("python HTMLtoDOM.py -i " + clean_filename + " -o " + xml_filename)
+        subscript_argv = ['-i', clean_filename, '-o', xml_filename]
+        HTMLtoDOM.main(subscript_argv)
         if outputfile == '':
             outputfile = input_filename_tuple[0] + ".json"
-        os.system("python DOMtoJSON.py -i " + xml_filename + " -o " + outputfile)
-        os.system("python n-gramms_generator.py -i " + outputfile + " -o " + outputfile)
+        subscript_argv = ['-i', xml_filename, '-o', outputfile]
+        DOMtoJSON.main(subscript_argv)
+        subscript_argv = ['-i', outputfile, '-o', outputfile]
+        n_gramms_generator.main(subscript_argv)
         print('deleting temporary files... ', end="")
-        os.system("rm -f "+clean_filename+" "+xml_filename)
+        os.remove(clean_filename)
+        os.remove(xml_filename)
         print('done')
 
 if __name__ == "__main__":

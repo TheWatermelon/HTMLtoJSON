@@ -53,18 +53,18 @@ def main(argv):
                             entity_code += char
                         else:
                             entity_code += char
-                            if xml_entities.__contains__(entity_code):
+                            if HTMLUtils.xml_entities.__contains__(entity_code):
                                 buffer += entity_code
-                            elif html_entities.keys().__contains__(entity_code):
-                                buffer += html_entities[entity_code]
+                            elif HTMLUtils.html_entities.keys().__contains__(entity_code):
+                                buffer += HTMLUtils.html_entities[entity_code]
                             entity_code = ""
                             entity = False
             res = lex.suivant()
         try:
             dom = minidom.parseString(buffer)
             xml_output = dom.toprettyxml()
-        except ExpatError, e:
-            print(e)
+        except ExpatError:
+            print(ExpatError)
             error = ""
             for i in range(e.offset-35, e.offset+25):
                 if i == e.offset:
@@ -73,7 +73,7 @@ def main(argv):
                     error += buffer[i]
             print(error)
     if outputfile != '':
-        fd = open(outputfile, 'wb')
+        fd = open(outputfile, 'w', encoding="utf-8")
         fd.write(xml_output)
         print("DOM of '" + inputfile + "' generated into '" + outputfile + "' !")
     else:

@@ -21,7 +21,8 @@ import HTMLUtils
 # Ne renvoie rien                                                #
 ##################################################################
 def add_n_gramm_to_list(n_gramms_list, new_n_gramm, ponctuation):
-    n_gramms_list.append(new_n_gramm)
+    if new_n_gramm[2] != "":
+        n_gramms_list.append(new_n_gramm)
     for n_gramm in n_gramms_list:
         if n_gramm[0] == new_n_gramm[0] - 1:
             n_gramms_list.append((new_n_gramm[0], n_gramm[1] + 1, n_gramm[2] + ponctuation + new_n_gramm[2]))
@@ -41,7 +42,7 @@ def generate_ngramms(inputfile):
     ponc_faible = [' ', '-', '\'']
     ponc_forte = ['.', ',', ';', '\n']
 
-    json_output = json.load(open(inputfile, 'rb'))
+    json_output = json.load(open(inputfile, 'r', encoding="utf-8"))
 
     for block in json_output['blocks']:
         text = block['text']
@@ -114,7 +115,7 @@ def main(argv):
     if inputfile != '':
         json_output = generate_ngramms(inputfile)
     if outputfile != '':
-        fd = open(outputfile, 'w')
+        fd = open(outputfile, 'w', encoding="utf-8")
         fd.write(json.dumps(json_output, indent=4))
         print("n-grammes generated into '" + outputfile + "' !")
     else:

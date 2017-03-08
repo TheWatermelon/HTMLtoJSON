@@ -116,7 +116,7 @@ def main(argv):
     if inputfile != '':
         json_output = dom_to_json(inputfile)
     if outputfile != '':
-        fd = open(outputfile, 'wb')
+        fd = open(outputfile, 'w', encoding="utf-8")
         fd.write(json.dumps(json_output, indent=4))
         print("XML DOM file '"+ inputfile +"' changed to JSON blocks into '" + outputfile + "'")
     else:
