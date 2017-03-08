@@ -1,8 +1,12 @@
 #!/usr/bin/python
+# coding: utf8
 
 import sys
 import getopt
 import xml.dom.minidom
+import HTMLUtils
+from HTMLParser import Lexical
+
 
 def main(argv):
     inputfile = ''
@@ -27,142 +31,36 @@ def main(argv):
         elif opt in ("-o", "--ofile"):
             outputfile = arg
     if inputfile != '':
-        fd = open(inputfile, 'r', encoding="utf8")
-
-        xml_entities = ['&quot;', '&amp', '&apos;', '&lt;', '&gt;']
-        html_entities = { '&quot;': '\"',
-                          '&amp;': '&',
-                          '&apos;': '\'',
-                          '&lt;': '<',
-                          '&gt;': '>',
-                          '&nbsp;': ' ',
-                          '&iexcl;': '¡',
-                          '&cent;': '¢',
-                          '&pound;': '£',
-                          '&curren;': '¤',
-                          '&yen;': '¥',
-                          '&brvbar;': '¦',
-                          '&sect;': '§',
-                          '&uml;': '¨',
-                          '&copy;': '©',
-                          '&ordf;': 'ª',
-                          '&laquo;': '«',
-                          '&not;': '¬',
-                          '&reg;': '®',
-                          '&macr;': '¯',
-                          '&deg;': '°',
-                          '&plusmn;': '±',
-                          '&sup2;': '²',
-                          '&sup3;': '³',
-                          '&acute;': '´',
-                          '&micro;': 'µ',
-                          '&para;': '¶',
-                          '&middot;': '·',
-                          '&cedil;': '¸',
-                          '&sup1;': '¹',
-                          '&ordm;': 'º',
-                          '&raquo;': '»',
-                          '&frac14;': '¼',
-                          '&frac12;': '½',
-                          '&frac34;': '¾',
-                          '&iquest;': '¿',
-                          '&Agrave;': 'À',
-                          '&Aacute;': 'Á',
-                          '&Acirc;': 'Â',
-                          '&Atilde;': 'Ã',
-                          '&Auml;': 'Ä',
-                          '&Aring;': 'Å',
-                          '&AElig;': 'Æ',
-                          '&Ccedil;': 'Ç',
-                          '&Egrave;': 'È',
-                          '&Eacute;': 'É',
-                          '&Ecirc;': 'Ê',
-                          '&Euml;': 'Ë',
-                          '&Igrave;': 'Ì',
-                          '&Iacute;': 'Í',
-                          '&Icirc;': 'Î',
-                          '&Iuml;': 'Ï',
-                          '&ETH;': 'Ð',
-                          '&Ntilde;': 'Ñ',
-                          '&Ograve;': 'Ò',
-                          '&Oacute;': 'Ó',
-                          '&Ocirc;': 'Ô',
-                          '&Otilde;': 'Õ',
-                          '&Ouml;': 'Ö',
-                          '&times;': '×',
-                          '&Oslash;': 'Ø',
-                          '&Ugrave;': 'Ù',
-                          '&Uacute;': 'Ú',
-                          '&Ucirc;': 'Û',
-                          '&Uuml;': 'Ü',
-                          '&Yacute;': 'Ý',
-                          '&THORN;': 'Þ',
-                          '&szlig;': 'ß',
-                          '&agrave;': 'à',
-                          '&aacute;': 'á',
-                          '&acirc;': 'â',
-                          '&atilde;': 'ã',
-                          '&auml;': 'ä',
-                          '&aring;': 'å',
-                          '&aelig;': 'æ',
-                          '&ccedil;': 'ç',
-                          '&egrave;' : 'è',
-                          '&eacute;': 'é',
-                          '&ecirc;': 'ê',
-                          '&euml;': 'ë',
-                          '&igrave;': 'ì',
-                          '&iacute;': 'í',
-                          '&icirc;': 'î',
-                          '&iuml;': 'ï',
-                          '&eth;': 'ð',
-                          '&ntilde;': 'ñ',
-                          '&ograve;': 'ò',
-                          '&oacute;': 'ó',
-                          '&ocirc;': 'ô',
-                          '&otilde;': 'õ',
-                          '&ouml;': 'ö',
-                          '&divide;': '÷',
-                          '&oslash;': 'ø',
-                          '&ugrave;': 'ù',
-                          '&uacute;': 'ú',
-                          '&ucirc;': 'û',
-                          '&uuml;': 'ü',
-                          '&yacute;': 'ý',
-                          '&yuml;': 'ÿ',
-                          '&OElig;': 'Œ',
-                          '&oelig;': 'œ',
-                          '&Yuml;': 'Ÿ',
-                          '&fnof;': 'ƒ',
-                          '&circ;': 'ˆ',
-                          '&tilde;': '˜'
-                          }
-
+        lex = Lexical(inputfile)
+        res = lex.suivant()
         buffer = ""
-        for line in fd.readlines():
+        while not lex.estEOF(res):
             entity = False
             entity_code = ""
-            for char in line:
-                if not entity:
-                    # DEBUG : ajout du caractere '&' dans les caracteres interdits
-                    if char != '\t' and char != '\n' and char != '\r' and char != '&':
-                        buffer += char
-                    elif char == '&':
-                        entity = True
-                        entity_code += char
-                else:
-                    if char != ';':
-                        entity_code += char
+            if not lex.estContenu(res):
+                buffer += res.representation
+            else:
+                for char in res.representation:
+                    if not entity:
+                        if char != '\t' and char != '\n' and char != '\r' and char != '&':
+                            buffer += char
+                        elif char == '&':
+                            entity = True
+                            entity_code += char
                     else:
-                        entity_code += char
-                        if xml_entities.__contains__(entity_code):
-                            buffer += entity_code
-                        #elif html_entities.keys().__contains__(entity_code):
-                        #    buffer += html_entities[entity_code]
-                        entity_code = ""
-                        entity = False
-
-
-
+                        if char != ';':
+                            entity_code += char
+                        else:
+                            entity_code += char
+                            if xml_entities.__contains__(entity_code):
+                                buffer += entity_code
+                            elif html_entities.keys().__contains__(entity_code):
+                                buffer += html_entities[entity_code]
+                            entity_code = ""
+                            entity = False
+            res = lex.suivant()
+        print(buffer)
+        exit()
         dom = xml.dom.minidom.parseString(buffer)
         xml_output = dom.toprettyxml()
     if outputfile != '':

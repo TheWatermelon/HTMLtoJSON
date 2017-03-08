@@ -16,7 +16,7 @@ import xml.etree.ElementTree as ET
 # Renvoie le tag juste      #
 # apres les {}              #
 #############################
-def extract_tag(tag) -> str:
+def extract_tag(tag):
     ret = tag.partition('}')
     return ret[2]
 
@@ -34,7 +34,7 @@ def extract_tag(tag) -> str:
 # en se basant sur le perimetre #
 # des elements                  #
 #################################
-def select_style(root) -> str:
+def select_style(root):
     max_bbox_perimeter = 0
     style = ""
     for child in root.iter():
@@ -65,7 +65,7 @@ def select_style(root) -> str:
 # a la generation des blocs textuels #
 # depuis les elements du DOM         #
 ######################################
-def dom_to_json(inputfile) -> dict:
+def dom_to_json(inputfile):
     json_output = {}
     blocks = []
     tree = ET.parse(inputfile)

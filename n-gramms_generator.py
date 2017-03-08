@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# coding: utf8
 
 import sys
 import getopt
@@ -36,11 +37,11 @@ def add_n_gramm_to_list(n_gramms_list, new_n_gramm, ponctuation):
 # decoupage en n-grammes des blocs de   #
 # texte                                 #
 #########################################
-def generate_ngramms(inputfile) -> dict:
+def generate_ngramms(inputfile):
     ponc_faible = [' ', '-', '\'']
     ponc_forte = ['.', ',', ';', '\n']
 
-    json_output = json.load(open(inputfile, 'r', encoding="utf8"))
+    json_output = json.load(open(inputfile, 'rb'))
 
     for block in json_output['blocks']:
         text = block['text']
