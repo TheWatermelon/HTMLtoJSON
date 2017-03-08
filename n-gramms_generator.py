@@ -7,6 +7,18 @@ import json
 import HTMLUtils
 
 
+##################################################################
+# add_n_gramm_to_list(n_gramms_list, new_n_gramm, ponctuation) : #
+##################################################################
+# Parametres :                                                   #
+#  - n_gramms_list : la liste dans laquelle ajouter le n-gramme  #
+#  - new_n_gramm : le n-gramme a ajouter                         #
+#  - ponctuation : la ponctuation entre le nouveau n-gramme et   #
+#    les n-grammes qui lui sont lies (les n-grammes qui le       #
+#    precede                                                     #
+##################################################################
+# Ne renvoie rien                                                #
+##################################################################
 def add_n_gramm_to_list(n_gramms_list, new_n_gramm, ponctuation):
     n_gramms_list.append(new_n_gramm)
     for n_gramm in n_gramms_list:
@@ -14,15 +26,16 @@ def add_n_gramm_to_list(n_gramms_list, new_n_gramm, ponctuation):
             n_gramms_list.append((new_n_gramm[0], n_gramm[1] + 1, n_gramm[2] + ponctuation + new_n_gramm[2]))
 
 
-######################################
-# generate_ngramms(inputfile) -> dict :    #
-######################################
-# Parametres :                       #
-#  - inputfile : fichier JSON source #
-######################################
-# Renvoie le JSON correspondant au   #
-# decoupage en n-grammes          #
-######################################
+#########################################
+# generate_ngramms(inputfile) -> dict : #
+#########################################
+# Parametres :                          #
+#  - inputfile : fichier JSON source    #
+#########################################
+# Renvoie le JSON correspondant au      #
+# decoupage en n-grammes des blocs de   #
+# texte                                 #
+#########################################
 def generate_ngramms(inputfile) -> dict:
     ponc_faible = [' ', '-', '\'']
     ponc_forte = ['.', ',', ';', '\n']
@@ -69,7 +82,7 @@ def generate_ngramms(inputfile) -> dict:
         new_list = []
         for n_gramms_list in all_n_gramms:
             for item in n_gramms_list:
-                n_gramm = {'nombre_de_mots': item[1], 'n_gramme': item[2]}
+                n_gramm = {'size': item[1], 'n_gramms': item[2]}
                 new_list.append(n_gramm)
         block['n_grammes'] = new_list
     return json_output
