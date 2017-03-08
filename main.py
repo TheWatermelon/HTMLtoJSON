@@ -33,7 +33,8 @@ def main(argv):
             outputfile = arg
     if inputfile != '':
         # recupere le prefixe du fichier html
-        input_filename_tuple = inputfile.partition('.')
+        input_filename_tuple = inputfile.partition('.html')
+        print(input_filename_tuple)
         # prepare l'appel a HTMLCleaner
         clean_filename = input_filename_tuple[0] + "_clean.html"
         if len(clean_list) == 0:
@@ -49,7 +50,9 @@ def main(argv):
             outputfile = input_filename_tuple[0] + ".json"
         os.system("python DOMtoJSON.py -i " + xml_filename + " -o " + outputfile)
         os.system("python n-gramms_generator.py -i " + outputfile + " -o " + outputfile)
-
+        print('deleting temporary files... ', end="")
+        os.system("rm -f "+clean_filename+" "+xml_filename)
+        print('done')
 
 if __name__ == "__main__":
     main(sys.argv[1:])
