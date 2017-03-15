@@ -88,7 +88,7 @@ def generate_ngramms(inputfile):
             for item in n_gramms_list:
                 n_gramm = {'size': item[1], 'n_gramms': item[2]}
                 new_list.append(n_gramm)
-        block['n_grammes'] = new_list
+        block['n_gramms'] = new_list
     return json_output
 
 
