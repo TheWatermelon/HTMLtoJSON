@@ -65,6 +65,8 @@ def generate_ngramms(inputfile):
                 # ajout de la ponctuation faible comme n-gramme
                 if ponc_faible.__contains__(char) and char != ' ':
                     add_n_gramm_to_list(current_n_gramms, (index, 1, buffer), ponctuation)
+                    index += 1
+                    ponctuation = ""
                 if ponc_forte.__contains__(char):
                     if len(current_n_gramms) > 0:
                         all_n_gramms.append(current_n_gramms)

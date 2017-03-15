@@ -35,7 +35,7 @@ def extract_tag(tag):
 # des elements                  #
 #################################
 def select_style(root):
-    max_bbox_perimeter = 0
+    max_bbox_aire = 0
     style = ""
     for child in root.iter():
         bbox = child.attrib.get('data-bbox', '0 0 0 0')
@@ -46,10 +46,10 @@ def select_style(root):
         # separe width et height
         bbox_tuple = bbox_tuple[2].partition(' ')
         # calcul du perimetre
-        bbox_perimeter = int(bbox_tuple[0]) + int(bbox_tuple[2])
+        bbox_aire = int(bbox_tuple[0]) + int(bbox_tuple[2])
         # selection du style
-        if(bbox_perimeter > max_bbox_perimeter):
-            max_bbox_perimeter = bbox_perimeter
+        if(bbox_aire > max_bbox_aire):
+            max_bbox_aire = bbox_aire
             style = child.attrib.get('data-style', '')
     return style
 
