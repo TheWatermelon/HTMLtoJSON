@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding: utf8
 
-from HTMLParser import Lexical
+from HTMLLexer import Lexical
 
 xml_entities = ['&quot;', '&amp', '&apos;', '&lt;', '&gt;']
 html_entities = { '&quot;': '\"',
