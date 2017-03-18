@@ -65,13 +65,6 @@ def main(argv):
             xml_output = dom.toprettyxml()
         except ExpatError:
             print(ExpatError)
-            error = ""
-            for i in range(e.offset-35, e.offset+25):
-                if i == e.offset:
-                    error += ' [ ' + buffer[i] + ' ] '
-                else:
-                    error += buffer[i]
-            print(error)
     if outputfile != '':
         fd = open(outputfile, 'w', encoding="utf-8")
         fd.write(xml_output)
