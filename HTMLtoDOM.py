@@ -6,7 +6,7 @@ import getopt
 from xml.dom import minidom
 from xml.parsers.expat import ExpatError
 import HTMLUtils
-from HTMLLexer import Lexical
+from HTMLParser import Lexical
 
 
 def main(argv):

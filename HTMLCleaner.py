@@ -4,7 +4,7 @@
 import getopt
 import sys
 
-from HTMLLexer import Lexical
+from HTMLParser import Lexical
 import HTMLUtils
 
 

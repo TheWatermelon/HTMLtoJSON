@@ -45,8 +45,8 @@ def select_style(root):
         bbox_tuple = bbox_tuple[2].partition(' ')
         # separe width et height
         bbox_tuple = bbox_tuple[2].partition(' ')
-        # calcul du perimetre
-        bbox_aire = int(bbox_tuple[0]) + int(bbox_tuple[2])
+        # calcul de l'aire
+        bbox_aire = int(bbox_tuple[0]) * int(bbox_tuple[2])
         # selection du style
         if(bbox_aire > max_bbox_aire):
             max_bbox_aire = bbox_aire
@@ -95,7 +95,7 @@ def main(argv):
     outputfile = ''
     json_output = ''
     clean_list = []
-    usage = 'usage: XMLtoJSON.py -i <input XML DOM file> [-o <output JSON file>]'
+    usage = 'usage: DOMtoJSON.py -i <input XML DOM file> [-o <output JSON file>]'
     try:
         opts, args = getopt.getopt(argv, "hi:o:", ["ifile=", "ofile="])
     except getopt.GetoptError:
