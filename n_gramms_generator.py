@@ -40,7 +40,7 @@ def add_n_gramm_to_list(n_gramms_list, new_n_gramm, ponctuation):
 #########################################
 def generate_ngramms(inputfile):
     ponc_faible = [' ', '-', '\'']
-    ponc_forte = ['.', ',', ';', '\n']
+    ponc_forte = ['.', ',', ';', '?', '!', '\n']
 
     json_output = json.load(open(inputfile, 'r', encoding="utf-8"))
 
@@ -78,7 +78,8 @@ def generate_ngramms(inputfile):
             all_n_gramms.append(current_n_gramms)
         # cas ou le texte ne contient qu'un mot
         else:
-            all_n_gramms.append([(0, 1, buffer)])
+            if buffer != "":
+                all_n_gramms.append([(0, 1, buffer)])
         # construction du block avec ses n-grammes
         output_block = {}
         for key,value in block.items():

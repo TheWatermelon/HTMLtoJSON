@@ -88,6 +88,8 @@ def main(argv):
             outputfile = arg
         elif opt in ("-l", "--clist"):
             clean_list = HTMLUtils.str_to_list(arg, ',')
+            if not clean_list.__contains__('html'):
+                clean_list.append('html')
     if inputfile != '':
         html_output = clean_html(inputfile, clean_list)
     if outputfile != '':
